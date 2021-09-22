@@ -10,12 +10,5 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        val button : Button = findViewById(R.id.btn_get_started)
-
-        button.setOnClickListener {
-            var intent:Intent=Intent(this,RegisterActivity::class.java)
-            startActivity(intent)
-        }
-
     }
 }
